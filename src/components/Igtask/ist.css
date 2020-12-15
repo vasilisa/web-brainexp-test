@@ -1,0 +1,92 @@
+.global {
+  display-direction:column;
+  width: 100%;
+  align-items: center;
+  align-content: center; 
+  justify-content: center;
+
+}
+
+.conf {
+  width: 100%;
+  margin-bottom:-40%;
+  margin-bottom:-10%;
+}
+
+.score {
+  margin-top:3vh;
+  font-size:3.5vh;
+  font-weight: bold;
+}
+
+.board {
+  margin-top: 5vh;
+  text-align: center;
+  margin-left:38vw;
+}
+
+.field {
+  background: #fff;
+  border: 0.25vh solid #999;
+  float: left;
+  font-size: 1.5vh;
+  font-weight: bold;
+  line-height: 0.25vh;
+  height: 10vh;
+  margin-right: -0.25vh;
+  margin-left:-0.25vh;
+  margin-top: -0.25vh;
+  padding: 0;
+  text-align: center;
+  width: 10vh;
+}
+
+.field:focus {
+  outline: none;
+}
+
+
+.fieldClicked {
+  background: #fff;
+  border: 1vh solid #999;
+  float: left;
+  font-size: 1.5vh;
+  font-weight: bold;
+  line-height: 0.25vh;
+  height: 10vh;
+  margin-right: -0.25vh;
+  margin-left:-0.25vh;
+  margin-top: -0.25vh;
+  padding: 0;
+  text-align: center;
+  width: 10vh;
+}
+
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: flex;
+}
+
+.response-row {
+margin-top: 14vw;
+margin-left:20vw;
+
+}
+
+.gap {
+  font-size: 5.5vh;
+  font-weight: bold;
+  margin-top:-10vh;
+  margin-right:35vh;
+
+}
+
+table, th, td {
+  width: 25vw;
+  align-items: center;
+  text-align:center;
+}
+
+

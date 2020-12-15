@@ -1,0 +1,10 @@
+.buttonStart{
+  position: center;
+  width: 15vw;
+  height: 10vh;
+  margin: 0 auto;
+  background: green;
+  border-radius: 0.5vh;
+  font-size: 3vh;
+  font-weight: bold;
+}

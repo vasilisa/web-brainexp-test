@@ -1,0 +1,30 @@
+.QuizGame {
+  text-align: center;
+    justify-content:center;
+    flex-direction:row;  
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+
+
+.buttonQuiz{
+  position: center;
+  width: 15vw;
+  height: 10vh;
+  margin: 0 auto;
+  background: green;
+  border-radius: 0.5vh;
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.bold { font-weight: bold;}
+
+.quizgameimg{
+  width: 100vw;
+  margin-top: -50vh;
+  margin-bottom: 1vh; 
+  margin-left:-10vw;
+
+}   
+
